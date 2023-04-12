@@ -1,0 +1,11 @@
+digraph G {
+node [style=filled,shape=circle,color=green]
+"com.acme/A/m1"->"com.acme/A/m2"
+"com.acme/A/m1"->"com.acme/B/m2"
+"com.acme/A/m2"->"com.acme/B/m1"
+"com.acme/B/m1"->"com.acme/A/m1"
+"com.acme/B/m2"->"com.acme/C/m3"
+"com.acme/C/m1"
+
+"com.acme/C/m3"  [style=solid color=black, shape=circle, ]
+}
